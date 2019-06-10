@@ -1,0 +1,13 @@
+//
+//  Common.xcconfig
+//  Configurations Setting
+//
+//  Created by weiguang on 2019/1/26.
+//  Copyright © 2019年 duia. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) JKURL='$(JKURL)' JK_IS_PRODUCATION='$(JK_IS_PRODUCATION)'

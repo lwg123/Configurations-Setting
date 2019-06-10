@@ -1,0 +1,18 @@
+//
+//  Debug.xcconfig
+//  Configurations Setting
+//
+//  Created by weiguang on 2019/1/26.
+//  Copyright © 2019年 duia. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// 测试的接口
+
+#include "Common.xcconfig"
+// 测试下基础的URL
+JKURL = @"https:/$()/test.com/api/api/"
+// 是测试的环境
+JK_IS_PRODUCATION = NO
